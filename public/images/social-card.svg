@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <defs><radialGradient id="g"><stop stop-color="#174e61"/><stop offset="1" stop-color="#061017"/></radialGradient><pattern id="p" width="48" height="48" patternUnits="userSpaceOnUse"><path d="M48 0H0v48" fill="none" stroke="#4bd7e8" stroke-opacity=".08"/></pattern></defs>
+  <rect width="1200" height="630" fill="url(#g)"/><rect width="1200" height="630" fill="url(#p)"/>
+  <text x="90" y="235" fill="#4bd7e8" font-family="monospace" font-size="25" letter-spacing="5">SOFTWARE ENGINEER</text>
+  <text x="90" y="330" fill="#edf6f8" font-family="sans-serif" font-weight="700" font-size="66">Game Engine &amp;</text><text x="90" y="408" fill="#edf6f8" font-family="sans-serif" font-weight="700" font-size="66">Gameplay Programmer</text>
+  <text x="90" y="500" fill="#93a9b4" font-family="monospace" font-size="24">C++  /  UNREAL ENGINE  /  MULTIPLAYER</text>
+</svg>
