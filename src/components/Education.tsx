@@ -1,6 +1,7 @@
 import { GraduationCap } from "lucide-react";
 import { SectionHeading } from "./SectionHeading";
 
+// EDUCATION-OSIO: muuta tutkinto, oppilaitos, erikoistuminen ja kurssit tässä tiedostossa.
 export function Education() {
   return (
     <section className="section education-section" id="education"><div className="container">

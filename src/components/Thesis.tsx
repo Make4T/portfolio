@@ -1,6 +1,7 @@
 import { BookOpen, ExternalLink } from "lucide-react";
 import { site } from "../data/site";
 
+// THESIS-OSIO: muuta opinnäytetyön otsikko, kuvaus ja avainsanat tässä tiedostossa.
 export function Thesis() {
   return (
     <section className="section container" id="thesis">

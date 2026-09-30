@@ -1,6 +1,7 @@
 import { Code2, Network, Puzzle, ScanEye } from "lucide-react";
 import { SectionHeading } from "./SectionHeading";
 
+// HOW I BUILD SYSTEMS -OSIO: muuta neljä periaatekorttia tässä tiedostossa.
 const principles = [
   { icon: Network, title: "Multiplayer First", text: "Gameplay systems are designed with ownership, authority and replication in mind." },
   { icon: Puzzle, title: "Modular Architecture", text: "Systems should be reusable, maintainable and straightforward to extend." },

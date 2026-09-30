@@ -1,6 +1,8 @@
 import { BriefcaseBusiness, Download, GitBranch, Mail } from "lucide-react";
 import { site } from "../data/site";
 
+// CONTACT-OSIO: yhteyspainikkeiden osoitteet tulevat src/data/site.ts-tiedostosta.
+// Muuta tämän osion otsikko ja kuvausteksti alempana tässä tiedostossa.
 const contacts = [
   { label: "GitHub", value: site.github, icon: GitBranch },
   { label: "LinkedIn", value: site.linkedin, icon: BriefcaseBusiness },

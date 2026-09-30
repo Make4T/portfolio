@@ -1,6 +1,7 @@
 import { ArrowDownRight, GitBranch, Terminal } from "lucide-react";
 import { site } from "../data/site";
 
+// HERO-OSIO: muuta pääotsikko, esittelyteksti ja teknologiakorit tässä tiedostossa.
 const tech = ["C++", "Unreal Engine 5", "C#", "Unity", "Multiplayer", "GAS"];
 
 export function Hero() {

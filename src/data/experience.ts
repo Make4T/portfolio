@@ -1,3 +1,6 @@
+// TYÖKOKEMUS
+// Jokainen lohko muodostaa yhden kohdan Experience-aikajanalle.
+// Älä keksi päivämääriä tai saavutuksia: lisää vain varmennettavat tiedot.
 export interface ExperienceItem {
   company: string;
   roles: string[];

@@ -1,6 +1,7 @@
 import { Blocks, Cpu, Network } from "lucide-react";
 import { SectionHeading } from "./SectionHeading";
 
+// ABOUT-OSIO: muuta esittelytekstit ja kolme erikoistumiskorttia tässä tiedostossa.
 const specialties = [
   { icon: Blocks, title: "Gameplay Engineering", text: "Gameplay mechanics, interaction systems, character systems and reusable gameplay architecture." },
   { icon: Network, title: "Multiplayer Systems", text: "Replication, authority, RPC communication and network-aware PlayerState / GameState architecture." },

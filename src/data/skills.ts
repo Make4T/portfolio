@@ -1,3 +1,5 @@
+// OSAAMISEN KATEGORIAT
+// Muokkaa taitojen otsikoita ja listoja tästä. Prosenttipalkkeja ei käytetä.
 export interface SkillCategory {
   title: string;
   skills: string[];
