@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 720">
+  <defs><linearGradient id="bg" x2="1" y2="1"><stop stop-color="#123b4b"/><stop offset="1" stop-color="#061017"/></linearGradient><pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0v40" fill="none" stroke="#83ddea" stroke-opacity=".08"/></pattern></defs>
+  <rect width="900" height="720" fill="url(#bg)"/><rect width="900" height="720" fill="url(#grid)"/>
+  <rect x="160" y="142" width="580" height="410" rx="18" fill="#07151d" stroke="#4bd7e8" stroke-opacity=".45" stroke-width="3"/>
+  <path d="M160 204h580" stroke="#4bd7e8" stroke-opacity=".2" stroke-width="2"/><circle cx="196" cy="174" r="8" fill="#4bd7e8"/><circle cx="222" cy="174" r="8" fill="#4bd7e8" opacity=".45"/><circle cx="248" cy="174" r="8" fill="#4bd7e8" opacity=".25"/>
+  <g fill="none" stroke="#74e7ef" stroke-width="5" stroke-linecap="round"><path d="M242 276h166"/><path d="M242 328h260"/><path d="M242 380h190"/><path d="M242 432h124"/></g>
+  <g fill="#4bd7e8"><circle cx="650" cy="276" r="20"/><path d="m640 276 8 8 15-18" fill="none" stroke="#061017" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/><circle cx="650" cy="380" r="20" fill="#1a6b79"/><path d="M650 369v14m0 8v1" stroke="#061017" stroke-width="5" stroke-linecap="round"/></g>
+  <text x="58" y="78" fill="#77dce8" font-family="monospace" font-size="18" letter-spacing="4">CONFIG PIPELINE // PYTHON</text><text x="58" y="662" fill="#82a9b4" font-family="monospace" font-size="14">SCHEMA / DIAGNOSTICS / SAFE DEFAULTS</text>
+</svg>
