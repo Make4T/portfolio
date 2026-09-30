@@ -4,7 +4,7 @@
 // painikkeen "coming soon" -tilassa eikä vie kävijää rikkinäiselle sivulle.
 export const site = {
   name: "[Markus Turunen]", // Sivustolla näkyvä nimi.
-    initials: "Software Engineer · Game Developer", // Logon kaksi kirjainta, esimerkiksi "MT".
+    initials: "MT", // Logon kaksi kirjainta, esimerkiksi "MT".
   github: "", // Esim. "https://github.com/Make4T"
   linkedin: "", // Esim. "https://www.linkedin.com/in/kayttajanimi/"
   email: "", // Esim. "etunimi.sukunimi@email.com"
