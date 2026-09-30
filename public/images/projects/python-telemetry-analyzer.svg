@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 720">
+  <defs><linearGradient id="bg" x2="1" y2="1"><stop stop-color="#143d4d"/><stop offset="1" stop-color="#061017"/></linearGradient><pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0v40" fill="none" stroke="#83ddea" stroke-opacity=".08"/></pattern></defs>
+  <rect width="900" height="720" fill="url(#bg)"/><rect width="900" height="720" fill="url(#grid)"/>
+  <g fill="none" stroke="#4bd7e8" stroke-width="3" opacity=".5"><path d="M130 500h650"/><path d="M130 500V160"/><path d="M180 430 280 360l90 45 130-145 90 65 105-112"/></g>
+  <g fill="#4bd7e8"><circle cx="180" cy="430" r="7"/><circle cx="280" cy="360" r="7"/><circle cx="370" cy="405" r="7"/><circle cx="500" cy="260" r="7"/><circle cx="590" cy="325" r="7"/><circle cx="695" cy="213" r="7"/></g>
+  <rect x="174" y="185" width="210" height="76" rx="10" fill="#07151d" stroke="#4bd7e8" stroke-opacity=".45"/><path d="M198 215h112M198 237h75" stroke="#8aeaf1" stroke-width="5" stroke-linecap="round"/>
+  <text x="58" y="78" fill="#77dce8" font-family="monospace" font-size="18" letter-spacing="4">TELEMETRY PIPELINE // PYTHON</text><text x="58" y="662" fill="#82a9b4" font-family="monospace" font-size="14">EVENTS / SESSIONS / REPORTS</text>
+</svg>
