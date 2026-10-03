@@ -1,0 +1,29 @@
+<svg width="1200" height="700" viewBox="0 0 1200 700" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="700" rx="32" fill="#07131B"/>
+  <path d="M80 565H1120" stroke="#17333E" stroke-width="2"/>
+  <path d="M80 455H1120" stroke="#17333E" stroke-width="2"/>
+  <path d="M80 345H1120" stroke="#17333E" stroke-width="2"/>
+  <path d="M80 235H1120" stroke="#17333E" stroke-width="2"/>
+  <path d="M160 535C260 490 305 505 390 430C475 355 520 390 600 315C680 240 740 290 825 210C900 140 1000 175 1080 115" stroke="#45D3BE" stroke-width="8" stroke-linecap="round"/>
+  <path d="M160 535C260 490 305 505 390 430C475 355 520 390 600 315C680 240 740 290 825 210C900 140 1000 175 1080 115" stroke="#B6FFF0" stroke-width="2" stroke-linecap="round" stroke-dasharray="2 20"/>
+  <circle cx="390" cy="430" r="12" fill="#F4B860"/>
+  <circle cx="600" cy="315" r="12" fill="#F4B860"/>
+  <circle cx="825" cy="210" r="12" fill="#F4B860"/>
+  <rect x="105" y="95" width="250" height="116" rx="18" fill="#0D2530" stroke="#2E6672" stroke-width="3"/>
+  <text x="135" y="142" fill="#B6FFF0" font-family="Arial, sans-serif" font-size="27" font-weight="700">players</text>
+  <text x="135" y="180" fill="#73A8AF" font-family="monospace" font-size="20">player_id · display_name</text>
+  <rect x="440" y="95" width="300" height="116" rx="18" fill="#0D2530" stroke="#2E6672" stroke-width="3"/>
+  <text x="470" y="142" fill="#B6FFF0" font-family="Arial, sans-serif" font-size="27" font-weight="700">game_sessions</text>
+  <text x="470" y="180" fill="#73A8AF" font-family="monospace" font-size="20">session_id · started_at</text>
+  <rect x="820" y="95" width="275" height="116" rx="18" fill="#0D2530" stroke="#2E6672" stroke-width="3"/>
+  <text x="850" y="142" fill="#B6FFF0" font-family="Arial, sans-serif" font-size="27" font-weight="700">telemetry_events</text>
+  <text x="850" y="180" fill="#73A8AF" font-family="monospace" font-size="20">event_type · metadata</text>
+  <path d="M355 153H440" stroke="#45D3BE" stroke-width="3" marker-end="url(#arrow)"/>
+  <path d="M740 153H820" stroke="#45D3BE" stroke-width="3" marker-end="url(#arrow)"/>
+  <text x="95" y="625" fill="#F4B860" font-family="monospace" font-size="22" letter-spacing="3">POSTGRESQL / TELEMETRY / ANALYTICS</text>
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto">
+      <path d="M0 0L9 3L0 6Z" fill="#45D3BE"/>
+    </marker>
+  </defs>
+</svg>
