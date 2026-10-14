@@ -9,7 +9,7 @@ export const site = {
   linkedin: "", // Esim. "https://www.linkedin.com/in/kayttajanimi/"
   email: "", // Esim. "etunimi.sukunimi@email.com"
   cv: "", // CV-tiedoston polku, esim. "./resume/cv.pdf" (tiedosto public/resume/cv.pdf).
-  thesis: "", // Julkinen linkki opinnäytetyöhön tai PDF-tiedostoon.
+  thesis: "https://www.theseus.fi/items/fd40131c-c523-4661-9028-05fa771ec02b", // Julkinen linkki opinnäytetyöhön tai PDF-tiedostoon.
 } as const;
 
 // YLÄVALIKKO

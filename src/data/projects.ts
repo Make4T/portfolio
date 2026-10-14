@@ -112,6 +112,19 @@ export const projects: Project[] = [
     featured: true,
   },
   {
+    title: "Winter Survival",
+    category: "Interactive Fiction / Narrative Design",
+    role: "Narrative Designer & Twine Developer",
+    description: "A branching winter-survival interactive-fiction prototype built in Twine. The player follows a radio signal, survives a roadside crash and makes choices about equipment, routes and recovery.",
+    technologies: ["Twine 2", "Harlowe 3", "HTML", "Interactive Fiction", "Narrative Design"],
+    image: "./images/projects/twine-winter-survival.svg",
+    imageAlt: "Stylized Winter Survival Twine story map with branching passages",
+    systems: ["46 connected story passages", "Choice-driven branching", "Radio and crash opening sequence", "Equipment and exploration choices", "Multiple survival routes", "Browser-playable HTML export"],
+    challenge: "Branching fiction needs player choice without losing narrative clarity. The story map organizes the survival scenario into focused passages so choices remain understandable while still creating distinct routes through the experience.",
+    github: "https://github.com/Make4T/twine-winter-survival",
+    featured: true,
+  },
+  {
     // Koottu mikrokontrolleriharjoitusten kokonaisuus: ei useita pieniä erilliskortteja.
     title: "Embedded Systems Labs",
     category: "Microcontrollers / Embedded C Programming",
