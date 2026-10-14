@@ -13,6 +13,7 @@ export interface Project {
   challenge: string;
   github?: string;
   demo?: string;
+  document?: string;
   featured: boolean;
 }
 
@@ -94,6 +95,20 @@ export const projects: Project[] = [
     systems: ["JSON and optional YAML input", "Schema-driven validation", "Safe --fix defaults", "Stable error codes and suggestions", "Machine-readable JSON output", "pytest and Ruff CI", "PyPI build workflow"],
     challenge: "Automatic fixes should improve a configuration without silently changing the user's intent. The validator only applies defaults declared by the schema, preserves existing values and validates the result again before reporting success.",
     github: "https://github.com/Make4T/python-config-validator",
+    featured: true,
+  },
+  {
+    // Arduino Uno -lopputyö: PDF-esitys ja kytkentäkaavio ovat public-kansiossa.
+    title: "Arduino Uno Temperature Meter",
+    category: "Embedded Systems / C Programming",
+    role: "Embedded Systems Developer",
+    description: "A final-project temperature meter for checking baby-milk temperature. It measures water with a DS18B20 sensor, presents the result on a 16×2 LCD and communicates the temperature state through RGB LED feedback.",
+    technologies: ["Arduino Uno", "C/C++", "ATmega328P", "DS18B20", "OneWire", "HD44780 LCD"],
+    image: "./images/projects/arduino-temperature-meter.png",
+    imageAlt: "Wiring diagram for an Arduino Uno temperature meter with LCD, buttons and LED indicators",
+    systems: ["DS18B20 OneWire temperature sensing", "16×2 LCD status display", "Normal and inspection modes", "Button debouncing", "Green, orange and red LED feedback", "Sensor-disconnect error state"],
+    challenge: "The device combines periodic sampling, user input and display feedback on a small microcontroller. The control loop keeps the interface responsive through debounced button input and updates the measurement, LCD and LED state in a predictable one-second cycle.",
+    document: "./documents/arduino-uno-temperature-meter-presentation.pdf",
     featured: true,
   },
   {

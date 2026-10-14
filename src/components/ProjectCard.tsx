@@ -1,4 +1,4 @@
-import { ArrowUpRight, GitBranch } from "lucide-react";
+import { ArrowUpRight, FileText, GitBranch } from "lucide-react";
 import type { Project } from "../data/projects";
 
 interface ProjectCardProps { project: Project; index: number }
@@ -23,9 +23,10 @@ export function ProjectCard({ project, index }: ProjectCardProps) {
             <p>{project.challenge}</p>
           </div>
         </details>
-        {(project.github || project.demo) && <div className="project-links">
+        {(project.github || project.demo || project.document) && <div className="project-links">
           {project.github && <a href={project.github}><GitBranch size={16} /> GitHub</a>}
           {project.demo && <a href={project.demo}><ArrowUpRight size={16} /> Demo</a>}
+          {project.document && <a href={project.document} target="_blank" rel="noreferrer"><FileText size={16} /> Presentation (PDF)</a>}
         </div>}
       </div>
     </article>
