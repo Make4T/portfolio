@@ -99,6 +99,20 @@ export const projects: Project[] = [
   },
   {
     // Arduino Uno -lopputyö: PDF-esitys ja kytkentäkaavio ovat public-kansiossa.
+    // C#/.NET API sample: repository includes the implementation and automated tests.
+    title: "Game Session API",
+    category: "C# / .NET Backend Development",
+    role: "Backend Developer",
+    description: "A compact ASP.NET Core Minimal API for multiplayer game sessions. It persists lobby state in SQLite and provides guarded REST endpoints for creating sessions, joining players and progressing a session through its lifecycle.",
+    technologies: ["C#", ".NET 8", "ASP.NET Core", "Entity Framework Core", "SQLite", "xUnit"],
+    image: "./images/projects/dotnet-game-session-api.svg",
+    imageAlt: "Diagram of a game session API connecting clients, REST endpoints and a SQLite database",
+    systems: ["Minimal API endpoint design", "Typed request and response contracts", "Entity Framework Core persistence", "SQLite data model", "Input validation and Problem Details", "Lobby capacity and duplicate-player guards", "xUnit test suite"],
+    challenge: "Multiplayer session state needs rules that are enforced on the server rather than trusted to clients. The API keeps session membership in persistent storage and rejects duplicate joins, full lobbies and joins after the lobby has progressed.",
+    github: "https://github.com/Make4T/dotnet-game-session-api",
+    featured: true,
+  },
+  {
     title: "Arduino Uno Temperature Meter",
     category: "Embedded Systems / C Programming",
     role: "Embedded Systems Developer",
