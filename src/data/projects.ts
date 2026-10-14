@@ -113,6 +113,20 @@ export const projects: Project[] = [
     featured: true,
   },
   {
+    // React and TypeScript dashboard sample: typed telemetry data with interactive filtering.
+    title: "TypeScript Game Event Dashboard",
+    category: "React / TypeScript Frontend Development",
+    role: "Frontend Developer",
+    description: "A responsive game-operations dashboard that turns typed multiplayer telemetry into filters, player summaries, activity trends and a searchable event stream.",
+    technologies: ["TypeScript", "React", "Vite", "useMemo", "Responsive UI", "Telemetry"],
+    image: "./images/projects/typescript-event-dashboard.svg",
+    imageAlt: "Game operations dashboard showing telemetry metrics, a chart and an event table",
+    systems: ["Typed event and player domain models", "Derived filter state with useMemo", "Event-category controls", "Player cohort filtering", "Searchable activity stream", "Responsive dashboard layout", "Production build and lint verification"],
+    challenge: "Telemetry interfaces must make dense data quickly understandable without hiding the underlying event detail. The dashboard uses a small typed domain model to derive the visible event stream and category summaries from one source of truth.",
+    github: "https://github.com/Make4T/typescript-game-event-dashboard",
+    featured: true,
+  },
+  {
     title: "Arduino Uno Temperature Meter",
     category: "Embedded Systems / C Programming",
     role: "Embedded Systems Developer",
