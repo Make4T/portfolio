@@ -32,15 +32,16 @@ export const projects: Project[] = [
     featured: true, // false piilottaa kortin Projects-osiosta.
   },
   {
-    title: "Gameplay Ability & Parkour System",
-    category: "Gameplay Framework / Engine Programming",
+    // UE 5.8 -projektin nykyinen portfolioesittely. Päivitä GitHub-linkki vasta, kun projektille on oma julkinen repository.
+    title: "GASP Parkour Movement Showcase",
+    category: "Unreal Engine 5.8 / Character Movement",
     role: "Gameplay & Systems Programmer",
-    description: "A modular parkour and character ability system built around Unreal Engine's Gameplay Ability System, combining movement, animation and reusable gameplay abilities.",
-    technologies: ["Unreal Engine", "C++", "Gameplay Ability System", "Animation", "Character Movement"],
+    description: "An in-progress third-person parkour showcase built with Unreal Engine 5.8 and GASP. It demonstrates ledge hanging, directional shimmy, climb-up, drop, wall-jump and slide movement inside a purpose-built traversal course.",
+    technologies: ["Unreal Engine 5.8", "C++", "Blueprints", "GASP", "Motion Matching", "Character Movement"],
     image: "./images/projects/parkour.svg",
-    imageAlt: "Technical movement-path visualization representing a parkour system",
-    systems: ["Wall running and climbing", "Hanging and ledge detection", "Sliding and drop mechanics", "Gameplay abilities", "Animation integration", "Reusable C++ components"],
-    challenge: "The architecture keeps core gameplay behavior in testable, reusable C++ components while exposing tuning and content configuration to designers through Blueprints.",
+    imageAlt: "Technical movement-path visualization representing an Unreal Engine parkour showcase",
+    systems: ["Ledge detection and hanging", "Directional wall shimmy", "Climb-up and drop transitions", "Wall-jump and slide movement", "GASP character and animation integration", "Purpose-built traversal showcase map"],
+    challenge: "Wall-relative movement must stay intuitive regardless of the wall orientation. The hang state derives a stable wall tangent so left and right input move consistently along the surface, while Blueprint-exposed values keep traversal tuning quick to iterate.",
     featured: true,
   },
   {
