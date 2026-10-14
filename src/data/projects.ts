@@ -112,6 +112,19 @@ export const projects: Project[] = [
     featured: true,
   },
   {
+    // Koottu mikrokontrolleriharjoitusten kokonaisuus: ei useita pieniä erilliskortteja.
+    title: "Embedded Systems Labs",
+    category: "Microcontrollers / Embedded C Programming",
+    role: "Embedded Systems Developer",
+    description: "A collection of Arduino Uno and AVR C labs exploring the practical foundations of embedded development: sensors, displays, motor control, digital I/O, ADC and PWM.",
+    technologies: ["Arduino Uno", "Embedded C/C++", "ATmega328P", "AVR Studio", "SPI", "ADC / PWM"],
+    image: "./images/projects/embedded-systems-labs.png",
+    imageAlt: "Arduino IDE showing Nokia 5110 LCD test code and a successful compile result",
+    systems: ["Nokia 5110 PCD8544 graphic LCD", "Character LCD and display control", "DS18B20 OneWire sensor interface", "DC motor control", "Current measurement", "ADC input and PWM output"],
+    challenge: "Each lab verifies the full path from wiring and pin configuration to firmware behavior. The work made hardware interfaces, timing, memory limits and iterative troubleshooting concrete across multiple peripherals.",
+    featured: true,
+  },
+  {
     title: "Real-Time Graphics Programming",
     category: "Graphics Programming",
     role: "Graphics Programmer",
