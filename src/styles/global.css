@@ -98,9 +98,9 @@ h1, h2, h3 { letter-spacing: -.035em; }
 .projects-list { display: grid; gap: 42px; }
 .project-card { display: grid; grid-template-columns: 1.03fr .97fr; overflow: hidden; border: 1px solid var(--line); border-radius: var(--radius); background: rgba(7, 19, 27, .86); box-shadow: 0 28px 60px rgba(0,0,0,.15); }
 .project-card.reverse .project-visual { order: 2; }
-.project-visual { position: relative; min-height: 540px; overflow: hidden; background: #07141b; }
+.project-visual { position: relative; min-height: 400px; overflow: hidden; background: #07141b; }
 .project-visual::after { content: ""; position: absolute; inset: 0; box-shadow: inset 0 0 70px rgba(1,8,12,.46); pointer-events: none; }
-.project-visual img { width: 100%; height: 100%; object-fit: cover; transition: transform .4s ease; }
+.project-visual img { width: 100%; height: 100%; padding: 14px; object-fit: contain; transition: transform .4s ease; }
 .project-card:hover .project-visual img { transform: scale(1.025); }
 .project-content { position: relative; padding: 54px; }
 .project-index { position: absolute; top: 35px; right: 38px; color: #41606c; font: 500 .73rem var(--mono); }
@@ -171,7 +171,7 @@ footer { border-top: 1px solid var(--line); }
   .specialty-grid { grid-template-columns: 1fr; }
   .about-layout { grid-template-columns: .8fr 1.2fr; gap: 45px; }
   .project-content { padding: 40px; }
-  .project-visual { min-height: 500px; }
+  .project-visual { min-height: 360px; }
   .principle-grid { grid-template-columns: 1fr 1fr; }
   .principle-grid article:nth-child(2) { border-right: 0; }
   .principle-grid article:nth-child(-n+2) { border-bottom: 1px solid var(--line); }
@@ -198,7 +198,7 @@ footer { border-top: 1px solid var(--line); }
   .small-card h3 { margin-top: 24px; }
   .project-card { grid-template-columns: 1fr; }
   .project-card.reverse .project-visual { order: 0; }
-  .project-visual { min-height: 380px; }
+  .project-visual { min-height: 300px; }
   .thesis-card { grid-template-columns: auto 1fr; }
   .thesis-card > .button { grid-column: 2; justify-self: start; }
   .education-card { grid-template-columns: auto 1fr; align-items: start; }
@@ -220,7 +220,7 @@ footer { border-top: 1px solid var(--line); }
   .tech-strip .container { padding-block: 15px; }
   .specialty-grid, .skills-grid { grid-template-columns: 1fr; }
   .project-content { padding: 30px 23px; }
-  .project-visual { min-height: 260px; }
+  .project-visual { min-height: 220px; }
   .case-study ul { grid-template-columns: 1fr; }
   .principle-grid { grid-template-columns: 1fr; }
   .principle-grid article { min-height: auto; border-right: 0; border-bottom: 1px solid var(--line); }
