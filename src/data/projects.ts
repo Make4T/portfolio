@@ -42,6 +42,7 @@ export const projects: Project[] = [
     imageAlt: "Technical movement-path visualization representing an Unreal Engine parkour showcase",
     systems: ["Ledge detection and hanging", "Directional wall shimmy", "Climb-up and drop transitions", "Wall-jump and slide movement", "GASP character and animation integration", "Purpose-built traversal showcase map"],
     challenge: "Wall-relative movement must stay intuitive regardless of the wall orientation. The hang state derives a stable wall tangent so left and right input move consistently along the surface, while Blueprint-exposed values keep traversal tuning quick to iterate.",
+    github: "https://github.com/Make4T/ParkourProject_UE5.8",
     featured: true,
   },
   {
