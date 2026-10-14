@@ -127,6 +127,20 @@ export const projects: Project[] = [
     featured: true,
   },
   {
+    // Full Stack portfolio sample: React client communicates with an ASP.NET Core and SQLite backend.
+    title: "Game Session Hub",
+    category: "Full Stack / Multiplayer Services",
+    role: "Full Stack Developer",
+    description: "A full stack lobby application for co-op game sessions. The React and TypeScript client creates, browses and joins lobbies through an ASP.NET Core REST API backed by SQLite.",
+    technologies: ["React", "TypeScript", "ASP.NET Core", "C#", "EF Core", "SQLite"],
+    image: "./images/projects/game-session-hub.svg",
+    imageAlt: "Full stack game session hub connecting a web client, REST API and persistent lobby data",
+    systems: ["React and TypeScript client", "ASP.NET Core Minimal API", "SQLite and Entity Framework Core", "CORS configuration", "Lobby creation and browse flow", "Join capacity and duplicate-player guards", "Session start state transition"],
+    challenge: "A usable multiplayer lobby needs client-side clarity and server-side rules. The client presents live lobby state while the API owns validation, persistence, player capacity and the transition from an open lobby to an in-progress session.",
+    github: "https://github.com/Make4T/game-session-hub",
+    featured: true,
+  },
+  {
     title: "Arduino Uno Temperature Meter",
     category: "Embedded Systems / C Programming",
     role: "Embedded Systems Developer",
