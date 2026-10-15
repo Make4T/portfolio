@@ -1,9 +1,12 @@
 // PROJEKTIKORTIT
 // Lisää, poista tai muokkaa portfolio-projekteja tästä tiedostosta.
 // Yksi { ... }-lohko vastaa yhtä korttia Projects-osiossa.
+export type ProjectArea = "Game Development" | "Web & Services" | "Data & Tooling" | "Embedded Systems" | "Interactive Media";
+
 export interface Project {
   title: string;
   category: string;
+  area: ProjectArea;
   role: string;
   description: string;
   technologies: string[];
@@ -21,6 +24,7 @@ export const projects: Project[] = [
   {
     title: "Thalassofobia", // Projektin nimi.
     category: "Multiplayer Underwater Horror Game", // Lyhyt projektityyppi nimen yläpuolella.
+    area: "Game Development",
     role: "Lead Programmer / Software Team Lead", // Oma roolisi projektissa.
     description: "A multiplayer underwater horror game developed in Unreal Engine. My work focuses on gameplay programming, multiplayer architecture, UI systems and network synchronization.", // Kortin tiivistelmä.
     technologies: ["Unreal Engine 5", "C++", "Blueprints", "UMG", "Replication", "Steam / EOS"], // Teknologiat tageiksi.
@@ -36,6 +40,7 @@ export const projects: Project[] = [
     // UE 5.8 -projektin nykyinen portfolioesittely. Päivitä GitHub-linkki vasta, kun projektille on oma julkinen repository.
     title: "GASP Parkour Movement Showcase",
     category: "Unreal Engine 5.8 / Character Movement",
+    area: "Game Development",
     role: "Gameplay & Systems Programmer",
     description: "An in-progress third-person parkour showcase built with Unreal Engine 5.8 and GASP. It demonstrates ledge hanging, directional shimmy, climb-up, drop, wall-jump and slide movement inside a purpose-built traversal course.",
     technologies: ["Unreal Engine 5.8", "C++", "Blueprints", "GASP", "Motion Matching", "Character Movement"],
@@ -49,6 +54,7 @@ export const projects: Project[] = [
   {
     title: "Unity 2D Multiplayer Lobby Demo",
     category: "Unity 6 / Multiplayer Networking",
+    area: "Game Development",
     role: "Networking Programmer",
     description: "A playable Unity 6 2D multiplayer lobby prototype built with Mirror. Players can host or join a session, set a name, move in a shared lobby, toggle ready state and transition to the game scene when every connected player is ready.",
     technologies: ["Unity 6", "C#", "Mirror", "NetworkBehaviour", "SyncVar", "Commands / RPCs", "URP 2D"],
@@ -61,6 +67,7 @@ export const projects: Project[] = [
   {
     title: "Python Telemetry Analyzer",
     category: "Python Data Tooling / Telemetry",
+    area: "Data & Tooling",
     role: "Python Developer",
     description: "A testable CLI that turns JSONL or CSV game and server telemetry into JSON, CSV and self-contained HTML reports with session, player and event statistics.",
     technologies: ["Python", "JSONL / CSV", "CLI", "pytest", "Ruff", "GitHub Actions"],
@@ -74,6 +81,7 @@ export const projects: Project[] = [
   {
     title: "SQL Game Telemetry Lab",
     category: "SQL / Game Data Engineering",
+    area: "Data & Tooling",
     role: "Data Systems Developer",
     description: "A PostgreSQL telemetry lab that models players, sessions and gameplay events, then turns the data into reusable session, activity and oxygen-risk analytics.",
     technologies: ["PostgreSQL", "SQL", "Docker Compose", "JSONB", "GitHub Actions"],
@@ -87,6 +95,7 @@ export const projects: Project[] = [
   {
     title: "Python Config Validator",
     category: "Python Tooling / Developer Experience",
+    area: "Data & Tooling",
     role: "Python Developer",
     description: "A testable command-line tool that validates JSON and optional YAML configuration files against a schema, reports actionable diagnostics and safely fills missing defaults.",
     technologies: ["Python", "JSON Schema", "CLI", "pytest", "Ruff", "GitHub Actions"],
@@ -102,6 +111,7 @@ export const projects: Project[] = [
     // C#/.NET API sample: repository includes the implementation and automated tests.
     title: "Game Session API",
     category: "C# / .NET Backend Development",
+    area: "Web & Services",
     role: "Backend Developer",
     description: "A compact ASP.NET Core Minimal API for multiplayer game sessions. It persists lobby state in SQLite and provides guarded REST endpoints for creating sessions, joining players and progressing a session through its lifecycle.",
     technologies: ["C#", ".NET 8", "ASP.NET Core", "Entity Framework Core", "SQLite", "xUnit"],
@@ -116,6 +126,7 @@ export const projects: Project[] = [
     // React and TypeScript dashboard sample: typed telemetry data with interactive filtering.
     title: "TypeScript Game Event Dashboard",
     category: "React / TypeScript Frontend Development",
+    area: "Web & Services",
     role: "Frontend Developer",
     description: "A responsive game-operations dashboard that turns typed multiplayer telemetry into filters, player summaries, activity trends and a searchable event stream.",
     technologies: ["TypeScript", "React", "Vite", "useMemo", "Responsive UI", "Telemetry"],
@@ -130,6 +141,7 @@ export const projects: Project[] = [
     // Full Stack portfolio sample: React client communicates with an ASP.NET Core and SQLite backend.
     title: "Game Session Hub",
     category: "Full Stack / Multiplayer Services",
+    area: "Web & Services",
     role: "Full Stack Developer",
     description: "A full stack lobby application for co-op game sessions. The React and TypeScript client creates, browses and joins lobbies through an ASP.NET Core REST API backed by SQLite, with a Docker development environment and continuous validation.",
     technologies: ["React", "TypeScript", "ASP.NET Core", "C#", "EF Core", "SQLite", "Docker Compose", "GitHub Actions"],
@@ -143,6 +155,7 @@ export const projects: Project[] = [
   {
     title: "Arduino Uno Temperature Meter",
     category: "Embedded Systems / C Programming",
+    area: "Embedded Systems",
     role: "Embedded Systems Developer",
     description: "A final-project temperature meter for checking baby-milk temperature. It measures water with a DS18B20 sensor, presents the result on a 16×2 LCD and communicates the temperature state through RGB LED feedback.",
     technologies: ["Arduino Uno", "C/C++", "ATmega328P", "DS18B20", "OneWire", "HD44780 LCD"],
@@ -156,6 +169,7 @@ export const projects: Project[] = [
   {
     title: "Winter Survival",
     category: "Interactive Fiction / Narrative Design",
+    area: "Interactive Media",
     role: "Narrative Designer & Twine Developer",
     description: "A branching winter-survival interactive-fiction prototype built in Twine. The player follows a radio signal, survives a roadside crash and makes choices about equipment, routes and recovery.",
     technologies: ["Twine 2", "Harlowe 3", "HTML", "Interactive Fiction", "Narrative Design"],
@@ -170,6 +184,7 @@ export const projects: Project[] = [
     // Koottu mikrokontrolleriharjoitusten kokonaisuus: ei useita pieniä erilliskortteja.
     title: "Embedded Systems Labs",
     category: "Microcontrollers / Embedded C Programming",
+    area: "Embedded Systems",
     role: "Embedded Systems Developer",
     description: "A collection of Arduino Uno and AVR C labs exploring the practical foundations of embedded development: sensors, displays, motor control, digital I/O, ADC and PWM.",
     technologies: ["Arduino Uno", "Embedded C/C++", "ATmega328P", "AVR Studio", "SPI", "ADC / PWM"],
@@ -182,6 +197,7 @@ export const projects: Project[] = [
   {
     title: "Real-Time Graphics Programming",
     category: "Graphics Programming",
+    area: "Game Development",
     role: "Graphics Programmer",
     description: "A lower-level rendering project exploring the foundations behind real-time 3D engines, from model loading and transforms to lighting and camera systems.",
     technologies: ["C++", "OpenGL", "GLM", "GLFW", "GLAD", "Assimp"],
