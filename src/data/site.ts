@@ -5,7 +5,7 @@
 export const site = {
   name: "[Markus Turunen]", // Sivustolla näkyvä nimi.
     initials: "MT", // Logon kaksi kirjainta, esimerkiksi "MT".
-  github: "", // Esim. "https://github.com/Make4T"
+  github: "https://github.com/Make4T", // Julkinen GitHub-profiili.
   linkedin: "", // Esim. "https://www.linkedin.com/in/kayttajanimi/"
   email: "", // Esim. "etunimi.sukunimi@email.com"
   cv: "./documents/Markus_Turunen_Resume_2026.pdf", // Ladattava CV (tiedosto public/documents-kansiossa).
