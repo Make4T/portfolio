@@ -8,7 +8,7 @@ export const site = {
   github: "", // Esim. "https://github.com/Make4T"
   linkedin: "", // Esim. "https://www.linkedin.com/in/kayttajanimi/"
   email: "", // Esim. "etunimi.sukunimi@email.com"
-  cv: "", // CV-tiedoston polku, esim. "./resume/cv.pdf" (tiedosto public/resume/cv.pdf).
+  cv: "./documents/Markus_Turunen_Resume_2026.pdf", // Ladattava CV (tiedosto public/documents-kansiossa).
   thesis: "https://www.theseus.fi/items/fd40131c-c523-4661-9028-05fa771ec02b", // Julkinen linkki opinnäytetyöhön tai PDF-tiedostoon.
 } as const;
 
