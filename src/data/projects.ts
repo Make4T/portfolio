@@ -135,7 +135,7 @@ export const projects: Project[] = [
     technologies: ["React", "TypeScript", "ASP.NET Core", "C#", "EF Core", "SQLite", "Docker Compose", "GitHub Actions"],
     image: "./images/projects/game-session-hub.svg",
     imageAlt: "Full stack game session hub connecting a web client, REST API and persistent lobby data",
-    systems: ["React and TypeScript client", "ASP.NET Core Minimal API", "SQLite and Entity Framework Core", "CORS configuration", "Lobby creation and browse flow", "Join capacity and duplicate-player guards", "Session start state transition", "Docker Compose local environment", "GitHub Actions build and lint validation"],
+    systems: ["React and TypeScript client", "ASP.NET Core Minimal API", "SQLite and Entity Framework Core", "CORS configuration", "Lobby creation and browse flow", "Join capacity and duplicate-player guards", "Session start state transition", "Docker Compose local environment", "GitHub Actions build, lint and API integration tests"],
     challenge: "A usable multiplayer lobby needs client-side clarity and server-side rules. The client presents live lobby state while the API owns validation, persistence, player capacity and the transition from an open lobby to an in-progress session.",
     github: "https://github.com/Make4T/game-session-hub",
     featured: true,
