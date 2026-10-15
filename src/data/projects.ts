@@ -56,7 +56,6 @@ export const projects: Project[] = [
     imageAlt: "Network-node diagram representing a Unity 2D multiplayer lobby",
     systems: ["Host and join UI flow", "Mirror NetworkManager lifecycle", "Networked player spawning", "Synced player name and ready state", "Server-authoritative click-to-move target", "ClientRpc player-list refresh", "All-ready server scene transition", "Standalone Windows build"],
     challenge: "A lobby needs one authoritative view of connected players while each client keeps responsive local input. The demo sends input and ready-state requests to the server through Mirror Commands, synchronizes lobby state with SyncVars and broadcasts the roster back to clients before the server transitions everyone to the game scene.",
-    github: "https://github.com/Make4T/FAO_MultiP_Demo",
     featured: true,
   },
   {
