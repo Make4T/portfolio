@@ -16,6 +16,7 @@ export interface Project {
   challenge: string;
   github?: string;
   demo?: string;
+  steam?: string;
   document?: string;
   featured: boolean;
 }
@@ -34,6 +35,7 @@ export const projects: Project[] = [
     challenge: "Unreal Engine widgets exist locally and cannot be replicated directly. Shared gameplay state is kept in replicated PlayerState and GameState objects while each client's widgets observe and present that state locally.", // Case studyn tekninen haaste.
     // github: "https://github.com/Make4T/REPOSITORY", // Lisää vain, jos projekti on julkinen.
     // demo: "https://LINKKI-DEMOON", // Esim. Steam-, itch.io- tai videolinkki.
+    steam: "https://store.steampowered.com/app/2507690/Thalassophobia/", // Julkinen Steam Store -sivu.
     featured: true, // false piilottaa kortin Projects-osiosta.
   },
   {
