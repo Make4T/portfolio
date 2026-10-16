@@ -23,14 +23,14 @@ export interface Project {
 
 export const projects: Project[] = [
   {
-    title: "Thalassofobia", // Projektin nimi.
+    title: "Thalassophobia", // Projektin nimi.
     category: "Multiplayer Underwater Horror Game", // Lyhyt projektityyppi nimen yläpuolella.
     area: "Game Development",
     role: "Lead Programmer / Software Team Lead", // Oma roolisi projektissa.
     description: "A multiplayer underwater horror game developed in Unreal Engine. My work focuses on gameplay programming, multiplayer architecture, UI systems and network synchronization.", // Kortin tiivistelmä.
     technologies: ["Unreal Engine 5", "C++", "Blueprints", "UMG", "Replication", "Steam / EOS"], // Teknologiat tageiksi.
     image: "./images/projects/thalassofobia.svg", // Kuvan tiedosto public/images/projects-kansiosta.
-    imageAlt: "Abstract sonar visualization representing the Thalassofobia underwater game", // Kuvan saavutettava kuvaus.
+    imageAlt: "Abstract sonar visualization representing the Thalassophobia underwater game", // Kuvan saavutettava kuvaus.
     systems: ["Server-authoritative gameplay", "RPC communication", "PlayerState / GameState replication", "Multiplayer HUD", "Mission, equipment and interaction systems", "Health and oxygen synchronization", "Boat gameplay"], // Case studyn luettelo.
     challenge: "Unreal Engine widgets exist locally and cannot be replicated directly. Shared gameplay state is kept in replicated PlayerState and GameState objects while each client's widgets observe and present that state locally.", // Case studyn tekninen haaste.
     // github: "https://github.com/Make4T/REPOSITORY", // Lisää vain, jos projekti on julkinen.
