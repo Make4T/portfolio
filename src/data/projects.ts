@@ -29,8 +29,8 @@ export const projects: Project[] = [
     role: "Lead Programmer / Software Team Lead", // Oma roolisi projektissa.
     description: "A multiplayer underwater horror game developed in Unreal Engine. My work focuses on gameplay programming, multiplayer architecture, UI systems and network synchronization.", // Kortin tiivistelmä.
     technologies: ["Unreal Engine 5", "C++", "Blueprints", "UMG", "Replication", "Steam / EOS"], // Teknologiat tageiksi.
-    image: "./images/projects/thalassofobia.svg", // Kuvan tiedosto public/images/projects-kansiosta.
-    imageAlt: "Abstract sonar visualization representing the Thalassophobia underwater game", // Kuvan saavutettava kuvaus.
+    image: "./images/projects/thalassophobia-underwater.gif", // Pelin vedenalainen gameplay-loop public/images/projects-kansiosta.
+    imageAlt: "Looping first-person gameplay clip showing underwater exploration in Thalassophobia", // Kuvan saavutettava kuvaus.
     systems: ["Server-authoritative gameplay", "RPC communication", "PlayerState / GameState replication", "Multiplayer HUD", "Mission, equipment and interaction systems", "Health and oxygen synchronization", "Boat gameplay"], // Case studyn luettelo.
     challenge: "Unreal Engine widgets exist locally and cannot be replicated directly. Shared gameplay state is kept in replicated PlayerState and GameState objects while each client's widgets observe and present that state locally.", // Case studyn tekninen haaste.
     // github: "https://github.com/Make4T/REPOSITORY", // Lisää vain, jos projekti on julkinen.
