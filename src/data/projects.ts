@@ -137,6 +137,7 @@ export const projects: Project[] = [
     systems: ["Typed event and player domain models", "Derived filter state with useMemo", "Event-category controls", "Player cohort filtering", "Searchable activity stream", "Responsive dashboard layout", "Production build and lint verification"],
     challenge: "Telemetry interfaces must make dense data quickly understandable without hiding the underlying event detail. The dashboard uses a small typed domain model to derive the visible event stream and category summaries from one source of truth.",
     github: "https://github.com/Make4T/typescript-game-event-dashboard",
+    demo: "https://make4t.github.io/typescript-game-event-dashboard/",
     featured: true,
   },
   {
