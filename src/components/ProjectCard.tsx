@@ -24,8 +24,8 @@ export function ProjectCard({ project, index }: ProjectCardProps) {
           </div>
         </details>
         {(project.github || project.demo || project.steam || project.document) && <div className="project-links">
-          {project.github && <a href={project.github}><GitBranch size={16} /> GitHub</a>}
-          {project.demo && <a href={project.demo}><ArrowUpRight size={16} /> Demo</a>}
+          {project.github && <a href={project.github} target="_blank" rel="noreferrer"><GitBranch size={16} /> GitHub</a>}
+          {project.demo && <a href={project.demo} target="_blank" rel="noreferrer"><ArrowUpRight size={16} /> Demo</a>}
           {project.steam && <a href={project.steam} target="_blank" rel="noreferrer"><Gamepad2 size={16} /> Steam</a>}
           {project.document && <a href={project.document} target="_blank" rel="noreferrer"><FileText size={16} /> Presentation (PDF)</a>}
         </div>}

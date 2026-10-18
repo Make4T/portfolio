@@ -23,7 +23,7 @@ export function Navigation() {
         </button>
         <div className={`nav-links ${open ? "is-open" : ""}`} id="nav-links">
           {navigation.map((item) => <a key={item.href} href={item.href} onClick={() => setOpen(false)}>{item.label}</a>)}
-          <a className="nav-github" href={site.github || "#contact"} onClick={() => setOpen(false)} aria-label={site.github ? "GitHub profile" : "GitHub link available in contact section"}>
+          <a className="nav-github" href={site.github || "#contact"} target={site.github ? "_blank" : undefined} rel={site.github ? "noreferrer" : undefined} onClick={() => setOpen(false)} aria-label={site.github ? "GitHub profile" : "GitHub link available in contact section"}>
             <GitBranch size={17} aria-hidden="true" /> GitHub
           </a>
         </div>

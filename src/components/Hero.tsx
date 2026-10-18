@@ -15,7 +15,7 @@ export function Hero() {
           <p className="hero-intro">ICT Engineer building gameplay systems, multiplayer architecture and real-time applications with Unreal Engine, Unity, C++ and C#.</p>
           <div className="button-row">
             <a className="button primary" href="#projects">View projects <ArrowDownRight size={18} aria-hidden="true" /></a>
-            <a className="button secondary" href={site.github || "#contact"}><GitBranch size={18} aria-hidden="true" /> GitHub</a>
+            <a className="button secondary" href={site.github || "#contact"} target={site.github ? "_blank" : undefined} rel={site.github ? "noreferrer" : undefined}><GitBranch size={18} aria-hidden="true" /> GitHub</a>
             {site.cv ? <a className="button text-button" href={site.cv} download>Download CV</a> : <span className="button text-button disabled" title="Add the CV path in src/data/site.ts">CV coming soon</span>}
           </div>
         </div>
