@@ -1,9 +1,31 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 720">
-  <defs><linearGradient id="bg" x2="1" y2="1"><stop stop-color="#123b4b"/><stop offset="1" stop-color="#061017"/></linearGradient><pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0v40" fill="none" stroke="#83ddea" stroke-opacity=".08"/></pattern></defs>
-  <rect width="900" height="720" fill="url(#bg)"/><rect width="900" height="720" fill="url(#grid)"/>
-  <rect x="160" y="142" width="580" height="410" rx="18" fill="#07151d" stroke="#4bd7e8" stroke-opacity=".45" stroke-width="3"/>
-  <path d="M160 204h580" stroke="#4bd7e8" stroke-opacity=".2" stroke-width="2"/><circle cx="196" cy="174" r="8" fill="#4bd7e8"/><circle cx="222" cy="174" r="8" fill="#4bd7e8" opacity=".45"/><circle cx="248" cy="174" r="8" fill="#4bd7e8" opacity=".25"/>
-  <g fill="none" stroke="#74e7ef" stroke-width="5" stroke-linecap="round"><path d="M242 276h166"/><path d="M242 328h260"/><path d="M242 380h190"/><path d="M242 432h124"/></g>
-  <g fill="#4bd7e8"><circle cx="650" cy="276" r="20"/><path d="m640 276 8 8 15-18" fill="none" stroke="#061017" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/><circle cx="650" cy="380" r="20" fill="#1a6b79"/><path d="M650 369v14m0 8v1" stroke="#061017" stroke-width="5" stroke-linecap="round"/></g>
-  <text x="58" y="78" fill="#77dce8" font-family="monospace" font-size="18" letter-spacing="4">CONFIG PIPELINE // PYTHON</text><text x="58" y="662" fill="#82a9b4" font-family="monospace" font-size="14">SCHEMA / DIAGNOSTICS / SAFE DEFAULTS</text>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 760" role="img" aria-labelledby="title description">
+  <title id="title">Python Config Validator diagnostic report</title>
+  <desc id="description">A CLI validation result showing five actionable configuration diagnostics, one valid configuration result, and passing tests.</desc>
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#071b27"/><stop offset=".58" stop-color="#0b2935"/><stop offset="1" stop-color="#111a36"/></linearGradient>
+    <pattern id="grid" width="42" height="42" patternUnits="userSpaceOnUse"><path d="M42 0H0V42" fill="none" stroke="#6ce8f2" stroke-opacity=".065"/></pattern>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="150%"><feDropShadow dx="0" dy="18" stdDeviation="17" flood-color="#000" flood-opacity=".34"/></filter>
+  </defs>
+  <rect width="1200" height="760" fill="url(#background)"/><rect width="1200" height="760" fill="url(#grid)"/>
+  <text x="64" y="74" fill="#70ebf5" font-family="ui-monospace,Consolas,monospace" font-size="18" font-weight="700" letter-spacing="3">PYTHON TOOLING / CONFIG VALIDATION</text>
+  <text x="64" y="128" fill="#f1fbff" font-family="Arial,sans-serif" font-size="38" font-weight="700">Config validation report</text>
+  <text x="64" y="162" fill="#a9c4ce" font-family="Arial,sans-serif" font-size="18">schema/config.schema.json  ·  configs/game.invalid.json  ·  --json</text>
+  <g filter="url(#shadow)">
+    <rect x="64" y="210" width="762" height="468" rx="20" fill="#07151e" stroke="#2b6374" stroke-width="2"/><rect x="64" y="210" width="762" height="60" rx="20" fill="#0d2530"/><path d="M64 250h762" stroke="#2b6374" stroke-width="2"/>
+    <circle cx="100" cy="240" r="8" fill="#ff5d74"/><circle cx="126" cy="240" r="8" fill="#fbbf5b"/><circle cx="152" cy="240" r="8" fill="#51e5a8"/><text x="188" y="247" fill="#bdd5dd" font-family="ui-monospace,Consolas,monospace" font-size="16">config-validator  game.invalid.json  --json</text>
+    <text x="104" y="311" fill="#ff7590" font-family="ui-monospace,Consolas,monospace" font-size="17" font-weight="700">5 DIAGNOSTICS FOUND</text>
+    <g font-family="ui-monospace,Consolas,monospace" font-size="15">
+      <rect x="96" y="338" width="698" height="50" rx="9" fill="#2a1824"/><circle cx="122" cy="363" r="7" fill="#ff5d74"/><text x="145" y="369" fill="#ffbcc7">unknown_property</text><text x="365" y="369" fill="#b6cbd2">$.debug_mode</text><text x="564" y="369" fill="#e1edf1">Remove or add to schema</text>
+      <rect x="96" y="398" width="698" height="50" rx="9" fill="#20202c"/><circle cx="122" cy="423" r="7" fill="#fbba5d"/><text x="145" y="429" fill="#ffd594">too_short</text><text x="365" y="429" fill="#b6cbd2">$.project_name</text><text x="564" y="429" fill="#e1edf1">Enter a longer value</text>
+      <rect x="96" y="458" width="698" height="50" rx="9" fill="#20202c"/><circle cx="122" cy="483" r="7" fill="#fbba5d"/><text x="145" y="489" fill="#ffd594">above_maximum</text><text x="365" y="489" fill="#b6cbd2">$.audio.master_volume</text><text x="618" y="489" fill="#e1edf1">Lower to 1 or less</text>
+      <rect x="96" y="518" width="698" height="50" rx="9" fill="#20202c"/><circle cx="122" cy="543" r="7" fill="#fbba5d"/><text x="145" y="549" fill="#ffd594">type_mismatch</text><text x="365" y="549" fill="#b6cbd2">$.audio.subtitles</text><text x="564" y="549" fill="#e1edf1">Use a JSON boolean</text>
+      <rect x="96" y="578" width="698" height="50" rx="9" fill="#20202c"/><circle cx="122" cy="603" r="7" fill="#fbba5d"/><text x="145" y="609" fill="#ffd594">required</text><text x="365" y="609" fill="#b6cbd2">$.controls.interact</text><text x="603" y="609" fill="#e1edf1">Add property or run --fix</text>
+    </g>
+  </g>
+  <g filter="url(#shadow)">
+    <rect x="860" y="210" width="276" height="214" rx="20" fill="#091c26" stroke="#31727a" stroke-width="2"/><circle cx="908" cy="265" r="20" fill="#38d79b"/><path d="m898 265 7 7 14-17" fill="none" stroke="#072019" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="946" y="259" fill="#75f1bb" font-family="ui-monospace,Consolas,monospace" font-size="15" font-weight="700">VALID JSON</text><text x="888" y="321" fill="#f1fbff" font-family="Arial,sans-serif" font-size="22" font-weight="700">game.valid.json</text><text x="888" y="354" fill="#a9c4ce" font-family="Arial,sans-serif" font-size="16">Thalassofobia config</text><text x="888" y="389" fill="#75f1bb" font-family="ui-monospace,Consolas,monospace" font-size="15">{ "valid": true }</text>
+    <rect x="860" y="452" width="276" height="226" rx="20" fill="#111b38" stroke="#5f6bb7" stroke-width="2"/><text x="888" y="500" fill="#aeb8ff" font-family="ui-monospace,Consolas,monospace" font-size="15" font-weight="700">QUALITY GATE</text><text x="888" y="548" fill="#f1fbff" font-family="Arial,sans-serif" font-size="34" font-weight="700">6 / 6</text><text x="888" y="578" fill="#b8c7ff" font-family="Arial,sans-serif" font-size="16">pytest passed</text><path d="M888 610h220" stroke="#465496" stroke-width="2"/><circle cx="900" cy="640" r="7" fill="#70ebf5"/><text x="918" y="646" fill="#d7e6ef" font-family="ui-monospace,Consolas,monospace" font-size="14">Ruff: all checks passed</text>
+  </g>
+  <text x="64" y="722" fill="#86a9b5" font-family="ui-monospace,Consolas,monospace" font-size="14" letter-spacing="1.3">ACTIONABLE ERROR CODES  ·  SAFE DEFAULTS WITH --FIX  ·  MACHINE-READABLE JSON OUTPUT</text>
 </svg>

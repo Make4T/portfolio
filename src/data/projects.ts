@@ -102,7 +102,7 @@ export const projects: Project[] = [
     description: "A testable command-line tool that validates JSON and optional YAML configuration files against a schema, reports actionable diagnostics and safely fills missing defaults.",
     technologies: ["Python", "JSON Schema", "CLI", "pytest", "Ruff", "GitHub Actions"],
     image: "./images/projects/python-validator.svg",
-    imageAlt: "Configuration document with validation checks and structured error indicators",
+    imageAlt: "Python Config Validator report showing five actionable JSON diagnostics, a valid configuration result and passing tests",
     systems: ["JSON and optional YAML input", "Schema-driven validation", "Safe --fix defaults", "Stable error codes and suggestions", "Machine-readable JSON output", "pytest and Ruff CI", "PyPI build workflow"],
     challenge: "Automatic fixes should improve a configuration without silently changing the user's intent. The validator only applies defaults declared by the schema, preserves existing values and validates the result again before reporting success.",
     github: "https://github.com/Make4T/python-config-validator",
