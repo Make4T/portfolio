@@ -29,7 +29,7 @@ export const projects: Project[] = [
     role: "Lead Programmer / Software Team Lead", // Oma roolisi projektissa.
     description: "A multiplayer underwater horror game developed in Unreal Engine. My work focuses on gameplay programming, multiplayer architecture, UI systems and network synchronization.", // Kortin tiivistelmä.
     technologies: ["Unreal Engine 5", "C++", "Blueprints", "UMG", "Replication", "Steam / EOS"], // Teknologiat tageiksi.
-    image: "./images/projects/thalassophobia-underwater.gif", // Pelin vedenalainen gameplay-loop public/images/projects-kansiosta.
+    image: "./images/projects/thalassophobia-underwater.webp", // Pelin vedenalainen gameplay-loop public/images/projects-kansiosta.
     imageAlt: "Looping first-person gameplay clip showing underwater exploration in Thalassophobia", // Kuvan saavutettava kuvaus.
     systems: ["Server-authoritative gameplay", "RPC communication", "PlayerState / GameState replication", "Multiplayer HUD", "Mission, equipment and interaction systems", "Health and oxygen synchronization", "Boat gameplay"], // Case studyn luettelo.
     challenge: "Unreal Engine widgets exist locally and cannot be replicated directly. Shared gameplay state is kept in replicated PlayerState and GameState objects while each client's widgets observe and present that state locally.", // Case studyn tekninen haaste.
@@ -46,7 +46,7 @@ export const projects: Project[] = [
     role: "Gameplay & Systems Programmer",
     description: "An in-progress third-person parkour showcase built with Unreal Engine 5.8 and GASP. It demonstrates ledge hanging, directional shimmy, climb-up, drop, wall-jump and slide movement inside a purpose-built traversal course.",
     technologies: ["Unreal Engine 5.8", "C++", "Blueprints", "GASP", "Motion Matching", "Character Movement"],
-    image: "./images/projects/parkour-climb-wallhang.gif",
+    image: "./images/projects/parkour-climb-wallhang.webp",
     imageAlt: "Looping gameplay clip showing climb-up and wall-hang movement in the Unreal Engine parkour showcase",
     systems: ["Ledge detection and hanging", "Directional wall shimmy", "Climb-up and drop transitions", "Wall-jump and slide movement", "GASP character and animation integration", "Purpose-built traversal showcase map"],
     challenge: "Wall-relative movement must stay intuitive regardless of the wall orientation. The hang state derives a stable wall tangent so left and right input move consistently along the surface, while Blueprint-exposed values keep traversal tuning quick to iterate.",
@@ -204,7 +204,7 @@ export const projects: Project[] = [
     role: "Graphics Programmer",
     description: "A lower-level C++ project exploring the foundations behind real-time 3D engines, from model loading and transforms to lighting and camera systems. It also includes a Bullet3 projectile-collision prototype with runtime collision visualization.",
     technologies: ["C++", "OpenGL", "GLM", "GLFW", "GLAD", "Assimp", "Bullet3"],
-    image: "./images/projects/bullet3-collision-projectiles.gif",
+    image: "./images/projects/bullet3-collision-projectiles.webp",
     imageAlt: "Looping Bullet3 simulation clip showing blue projectile collisions against a red target",
     systems: ["3D rendering", "Model loading", "Phong lighting", "Transformations", "Camera systems", "Real-time render loop", "Bullet3 projectile collisions", "Collision debug visualization"],
     challenge: "Building the rendering path directly with OpenGL makes resource ownership, coordinate spaces and the relationship between CPU-side scene data and GPU-side shaders explicit. The Bullet3 collision prototype adds physics-driven projectile interactions and makes their collision state visible at runtime.",
