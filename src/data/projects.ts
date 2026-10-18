@@ -88,7 +88,7 @@ export const projects: Project[] = [
     description: "A PostgreSQL telemetry lab that models players, sessions and gameplay events, then turns the data into reusable session, activity and oxygen-risk analytics.",
     technologies: ["PostgreSQL", "SQL", "Docker Compose", "JSONB", "GitHub Actions"],
     image: "./images/projects/sql-game-telemetry-lab.svg",
-    imageAlt: "Relational game telemetry data model with session analytics",
+    imageAlt: "SQL Game Telemetry Lab report showing validated PostgreSQL session analytics and an oxygen-risk query result",
     systems: ["Relational schema design", "Foreign keys and constraints", "Time-series indexes", "Repeatable seed data", "Analytics query library", "Dockerized PostgreSQL", "Smoke-test CI"],
     challenge: "Gameplay telemetry needs both flexible event metadata and reliable relationships. The schema keeps core entities relational, stores event-specific details in JSONB and validates the full database through an automated smoke test.",
     github: "https://github.com/Make4T/sql-game-telemetry-lab",

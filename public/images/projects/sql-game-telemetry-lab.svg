@@ -1,29 +1,27 @@
 <svg width="1200" height="700" viewBox="0 0 1200 700" fill="none" xmlns="http://www.w3.org/2000/svg">
   <rect width="1200" height="700" rx="32" fill="#07131B"/>
-  <path d="M80 565H1120" stroke="#17333E" stroke-width="2"/>
-  <path d="M80 455H1120" stroke="#17333E" stroke-width="2"/>
-  <path d="M80 345H1120" stroke="#17333E" stroke-width="2"/>
-  <path d="M80 235H1120" stroke="#17333E" stroke-width="2"/>
-  <path d="M160 535C260 490 305 505 390 430C475 355 520 390 600 315C680 240 740 290 825 210C900 140 1000 175 1080 115" stroke="#45D3BE" stroke-width="8" stroke-linecap="round"/>
-  <path d="M160 535C260 490 305 505 390 430C475 355 520 390 600 315C680 240 740 290 825 210C900 140 1000 175 1080 115" stroke="#B6FFF0" stroke-width="2" stroke-linecap="round" stroke-dasharray="2 20"/>
-  <circle cx="390" cy="430" r="12" fill="#F4B860"/>
-  <circle cx="600" cy="315" r="12" fill="#F4B860"/>
-  <circle cx="825" cy="210" r="12" fill="#F4B860"/>
-  <rect x="105" y="95" width="250" height="116" rx="18" fill="#0D2530" stroke="#2E6672" stroke-width="3"/>
-  <text x="135" y="142" fill="#B6FFF0" font-family="Arial, sans-serif" font-size="27" font-weight="700">players</text>
-  <text x="135" y="180" fill="#73A8AF" font-family="monospace" font-size="20">player_id · display_name</text>
-  <rect x="440" y="95" width="300" height="116" rx="18" fill="#0D2530" stroke="#2E6672" stroke-width="3"/>
-  <text x="470" y="142" fill="#B6FFF0" font-family="Arial, sans-serif" font-size="27" font-weight="700">game_sessions</text>
-  <text x="470" y="180" fill="#73A8AF" font-family="monospace" font-size="20">session_id · started_at</text>
-  <rect x="820" y="95" width="275" height="116" rx="18" fill="#0D2530" stroke="#2E6672" stroke-width="3"/>
-  <text x="850" y="142" fill="#B6FFF0" font-family="Arial, sans-serif" font-size="27" font-weight="700">telemetry_events</text>
-  <text x="850" y="180" fill="#73A8AF" font-family="monospace" font-size="20">event_type · metadata</text>
-  <path d="M355 153H440" stroke="#45D3BE" stroke-width="3" marker-end="url(#arrow)"/>
-  <path d="M740 153H820" stroke="#45D3BE" stroke-width="3" marker-end="url(#arrow)"/>
-  <text x="95" y="625" fill="#F4B860" font-family="monospace" font-size="22" letter-spacing="3">POSTGRESQL / TELEMETRY / ANALYTICS</text>
-  <defs>
-    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto">
-      <path d="M0 0L9 3L0 6Z" fill="#45D3BE"/>
-    </marker>
-  </defs>
+  <rect x="55" y="48" width="1090" height="84" rx="18" fill="#0D2530" stroke="#2E6672" stroke-width="2"/>
+  <circle cx="94" cy="90" r="12" fill="#45D3BE"/><path d="M89 90H99M94 85V95" stroke="#07131B" stroke-width="2" stroke-linecap="round"/>
+  <text x="125" y="84" fill="#DFFAF5" font-family="Arial, sans-serif" font-size="26" font-weight="700">SQL GAME TELEMETRY LAB</text>
+  <text x="125" y="111" fill="#73A8AF" font-family="monospace" font-size="16">POSTGRESQL 16  /  DOCKER COMPOSE  /  ANALYTICS QUERIES</text>
+  <rect x="925" y="72" width="178" height="36" rx="18" fill="#123B36"/><circle cx="952" cy="90" r="6" fill="#45D3BE"/>
+  <text x="968" y="96" fill="#B6FFF0" font-family="Arial, sans-serif" font-size="14" font-weight="700">SMOKE TEST PASSED</text>
+  <text x="65" y="180" fill="#73A8AF" font-family="monospace" font-size="15" letter-spacing="2">SEEDED TELEMETRY DATA</text>
+  <rect x="55" y="204" width="240" height="128" rx="18" fill="#0A1D27" stroke="#28515C" stroke-width="2"/>
+  <text x="79" y="244" fill="#73A8AF" font-family="Arial, sans-serif" font-size="15">Sessions analysed</text><text x="79" y="302" fill="#DFFAF5" font-family="Arial, sans-serif" font-size="56" font-weight="700">2</text><text x="155" y="294" fill="#45D3BE" font-family="monospace" font-size="12">session-001 / 002</text>
+  <rect x="315" y="204" width="240" height="128" rx="18" fill="#0A1D27" stroke="#28515C" stroke-width="2"/>
+  <text x="339" y="244" fill="#73A8AF" font-family="Arial, sans-serif" font-size="15">Gameplay events</text><text x="339" y="302" fill="#DFFAF5" font-family="Arial, sans-serif" font-size="56" font-weight="700">6</text><text x="415" y="294" fill="#45D3BE" font-family="monospace" font-size="15">3 events per session</text>
+  <rect x="575" y="204" width="240" height="128" rx="18" fill="#0A1D27" stroke="#28515C" stroke-width="2"/>
+  <text x="599" y="244" fill="#73A8AF" font-family="Arial, sans-serif" font-size="15">Players tracked</text><text x="599" y="302" fill="#DFFAF5" font-family="Arial, sans-serif" font-size="56" font-weight="700">3</text><text x="675" y="294" fill="#45D3BE" font-family="monospace" font-size="13">joined via FK</text>
+  <rect x="835" y="204" width="310" height="128" rx="18" fill="#271E16" stroke="#8C6637" stroke-width="2"/>
+  <text x="859" y="244" fill="#E6BA7A" font-family="Arial, sans-serif" font-size="15">Oxygen risk signal</text><text x="859" y="292" fill="#FFF4DF" font-family="Arial, sans-serif" font-size="34" font-weight="700">Aino: 68%</text><text x="859" y="320" fill="#E6BA7A" font-family="monospace" font-size="13">2 low-oxygen events detected</text>
+  <rect x="55" y="364" width="735" height="270" rx="18" fill="#0A1D27" stroke="#28515C" stroke-width="2"/>
+  <text x="83" y="405" fill="#B6FFF0" font-family="Arial, sans-serif" font-size="20" font-weight="700">Session summary query</text><text x="83" y="431" fill="#73A8AF" font-family="monospace" font-size="14">sql/queries/01_session_summary.sql</text><path d="M83 466H762" stroke="#28515C" stroke-width="2"/>
+  <text x="83" y="493" fill="#73A8AF" font-family="monospace" font-size="14">SESSION</text><text x="337" y="493" fill="#73A8AF" font-family="monospace" font-size="14">DURATION</text><text x="515" y="493" fill="#73A8AF" font-family="monospace" font-size="14">PLAYERS</text><text x="655" y="493" fill="#73A8AF" font-family="monospace" font-size="14">EVENTS</text><path d="M83 511H762" stroke="#17333E" stroke-width="2"/>
+  <text x="83" y="542" fill="#DFFAF5" font-family="monospace" font-size="17">session-001</text><text x="337" y="542" fill="#DFFAF5" font-family="monospace" font-size="17">32 min</text><text x="545" y="542" fill="#45D3BE" font-family="monospace" font-size="17">2</text><text x="683" y="542" fill="#45D3BE" font-family="monospace" font-size="17">3</text><path d="M83 560H762" stroke="#17333E" stroke-width="2"/>
+  <text x="83" y="592" fill="#DFFAF5" font-family="monospace" font-size="17">session-002</text><text x="337" y="592" fill="#DFFAF5" font-family="monospace" font-size="17">37 min</text><text x="545" y="592" fill="#45D3BE" font-family="monospace" font-size="17">2</text><text x="683" y="592" fill="#45D3BE" font-family="monospace" font-size="17">3</text>
+  <rect x="815" y="364" width="330" height="270" rx="18" fill="#0A1D27" stroke="#28515C" stroke-width="2"/>
+  <text x="843" y="405" fill="#B6FFF0" font-family="Arial, sans-serif" font-size="20" font-weight="700">Pipeline validation</text><text x="843" y="435" fill="#73A8AF" font-family="monospace" font-size="14">repeatable local setup</text>
+  <circle cx="858" cy="482" r="8" fill="#45D3BE"/><text x="881" y="488" fill="#DFFAF5" font-family="Arial, sans-serif" font-size="17">Schema + indexes applied</text><circle cx="858" cy="529" r="8" fill="#45D3BE"/><text x="881" y="535" fill="#DFFAF5" font-family="Arial, sans-serif" font-size="17">Deterministic seed data</text><circle cx="858" cy="576" r="8" fill="#45D3BE"/><text x="881" y="582" fill="#DFFAF5" font-family="Arial, sans-serif" font-size="17">Smoke test verified</text>
+  <text x="65" y="677" fill="#73A8AF" font-family="monospace" font-size="13">DATA MODEL: PLAYERS + SESSIONS + SESSION_PLAYERS + TELEMETRY_EVENTS (JSONB)</text>
 </svg>
